@@ -1,0 +1,50 @@
+html, body, main, .half{
+	height:100%;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+nav{
+	height: 100px;
+	width:100%;
+	display: flex;
+}
+
+.navHalf{
+	width: 50%;
+	border: 1px solid green;
+}
+
+main{
+	display: flex;
+}
+
+.half{
+	width: 50%;
+	border: 1px solid red;
+	height: 100%;
+}
+
+.half img{
+	width:100%;
+	max-height:100%;
+	overflow-y:hidden;
+}
+
+.mainTitle{
+	text-align: center;
+}
+
+.mainNav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.mainNav li{
+	margin: 0px 15px;
+}
